@@ -1,9 +1,7 @@
-# Inside-Outside-Guidance (IOG) -- Demo
+# Demo for Inside-Outside-Guidance
 This project hosts the demo for the IOG algorithms for interactive segmentation.
 
-
 > [Interactive Object Segmentation with Inside-Outside Guidance](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)  
-> Shiyin Zhang, Jun Hao Liew, Yunchao Wei, Shikui Wei, Yao Zhao  
 
 ### Installation
 1. Install requirement  
@@ -30,4 +28,4 @@ python demo.py <input_img_path> <output_mask_path>
 With the annotated bounding boxes (∼0.615M) of ILSVRCLOC, we apply our IOG to collect their pixel-level annotations, named Pixel-ImageNet, which are publicly available at https://github.com/shiyinzhang/Pixel-ImageNet.
 
 ### Reference
-https://github.com/shiyinzhang/Inside-Outside-Guidance
+> https://github.com/shiyinzhang/Inside-Outside-Guidance
