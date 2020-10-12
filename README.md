@@ -1,7 +1,5 @@
 # Automatic Segmentation Tool
-This project hosts the demonstration of IOG algorithms for interactive segmentation.
-
-> [Interactive Object Segmentation with Inside-Outside Guidance](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)  
+This project hosts the demonstration of Inside-Outside Guidance algorithm for interactive segmentation.
 
 ### Usage
 ```
@@ -16,9 +14,6 @@ python demo.py <input_img_path> <output_mask_path>
 |---------|-------------|:-------------------------:|
 |PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD.pth](https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing)     |
 |PASCAL |  ResNet-101   |  [IOG_PASCAL.pth](https://drive.google.com/file/d/1GLZIQlQ-3KUWaGTQ1g_InVcqesGfGcpW/view?usp=sharing)   |
-
-### Dataset
-With the annotated bounding boxes (∼0.615M) of ILSVRCLOC, we apply our IOG to collect their pixel-level annotations, named Pixel-ImageNet, which are publicly available at https://github.com/shiyinzhang/Pixel-ImageNet.
 
 ### Reference
 > https://github.com/shiyinzhang/Inside-Outside-Guidance
