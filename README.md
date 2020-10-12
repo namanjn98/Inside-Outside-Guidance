@@ -1,4 +1,4 @@
-# Inside-Outside-Guidance (IOG) -- Demo
+# Demo for Inside-Outside-Guidance
 This project hosts the demo for the IOG algorithms for interactive segmentation.
 
 > [Interactive Object Segmentation with Inside-Outside Guidance](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)  
