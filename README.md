@@ -3,14 +3,7 @@ This project hosts the demonstration of IOG algorithms for interactive segmentat
 
 > [Interactive Object Segmentation with Inside-Outside Guidance](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)  
 
-### Installation
-1. Install requirement  
-  - PyTorch = 0.4
-  - python >= 3.5
-  - torchvision = 0.2
-  - pycocotools
-
-2. Run
+### Usage
 ```
 python demo.py <input_img_path> <output_mask_path> 
 ```
